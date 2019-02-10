@@ -48,3 +48,6 @@ compile
 head "Finalizing build"
 cache_versions
 finalize_node
+
+mkdir -p /tmp/cache/
+cp -r $assets_dir/node_modules /tmp/cache/node_modules
