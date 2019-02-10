@@ -51,3 +51,7 @@ finalize_node
 
 mkdir -p /tmp/cache/
 cp -r $assets_dir/node_modules /tmp/cache/node_modules
+
+echo "/tmp/gigalixir/cache/grouchy-crowded-asianelephant/:/tmp/cache"
+ls /tmp/gigalixir/cache/grouchy-crowded-asianelephant/
+
